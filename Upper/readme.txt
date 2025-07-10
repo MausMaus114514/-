@@ -21,5 +21,3 @@
 
 运行方式：
     bash ./run_all.sh
-
-    备注：实际运行时使用 # 注释掉 $PYTHON $FATIGUE_SCRIPT > $FATIGUE_LOG 2>&1 & 这一行，此处是模拟器
