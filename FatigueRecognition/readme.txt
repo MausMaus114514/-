@@ -1,22 +1,5 @@
 环境：
-python3.8 及以上
-
-依赖准备：命令行输入
-    pip install --force-reinstall \
-    huaweicloudsdkcore \
-    huaweicloudsdkobs \
-    -i https://repo.huaweicloud.com/repository/pypi/simple     
-	
-	问ai按照什么方法去检查目录安装是否齐全
-
-	如果确实不齐全（尤其是obs子目录），尝试以下方法重新导入包（我试过了依然不行，也可以再试一下）
-    # 卸载旧版本
-    pip uninstall huaweicloudsdkcore huaweicloudsdkobs -y
-
-    # 从 GitHub 下载源码安装
-    git clone https://github.com/huaweicloud/huaweicloud-sdk-python-obs.git
-    cd huaweicloud-sdk-python-obs
-    python setup.py install --user
+python3.8 
 
 
 文件简要介绍：
